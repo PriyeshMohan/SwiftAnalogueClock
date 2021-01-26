@@ -13,6 +13,18 @@
 		DC7D76ED25C06038005D5E71 /* SwiftAnalogueClockExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D76DB25C0602F005D5E71 /* SwiftAnalogueClockExampleApp.swift */; };
 		DC7D76EF25C06038005D5E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D76DC25C0602F005D5E71 /* ContentView.swift */; };
 		DC7D76F125C06038005D5E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7D76DD25C06038005D5E71 /* Assets.xcassets */; };
+		DC7D770D25C06441005D5E71 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D76FF25C06441005D5E71 /* DateUtil.swift */; };
+		DC7D770E25C06441005D5E71 /* LayerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770025C06441005D5E71 /* LayerUtil.swift */; };
+		DC7D770F25C06441005D5E71 /* AnalogueClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770125C06441005D5E71 /* AnalogueClockView.swift */; };
+		DC7D771025C06441005D5E71 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770225C06441005D5E71 /* RoundView.swift */; };
+		DC7D771125C06441005D5E71 /* SecondHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770325C06441005D5E71 /* SecondHandView.swift */; };
+		DC7D771225C06441005D5E71 /* RoundViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770525C06441005D5E71 /* RoundViewProtocol.swift */; };
+		DC7D771325C06441005D5E71 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770725C06441005D5E71 /* UIView+Extension.swift */; };
+		DC7D771425C06441005D5E71 /* Date+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770825C06441005D5E71 /* Date+Extenstion.swift */; };
+		DC7D771525C06441005D5E71 /* CAShapeLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770925C06441005D5E71 /* CAShapeLayer+Extension.swift */; };
+		DC7D771625C06441005D5E71 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770A25C06441005D5E71 /* CGFloat+Extension.swift */; };
+		DC7D771725C06441005D5E71 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770B25C06441005D5E71 /* CALayer+Extension.swift */; };
+		DC7D771825C06441005D5E71 /* ClockHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770C25C06441005D5E71 /* ClockHandView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,18 @@
 		DC7D76DD25C06038005D5E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7D76E225C06038005D5E71 /* SwiftAnalogueClockExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAnalogueClockExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7D76E425C06038005D5E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7D76FF25C06441005D5E71 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		DC7D770025C06441005D5E71 /* LayerUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerUtil.swift; sourceTree = "<group>"; };
+		DC7D770125C06441005D5E71 /* AnalogueClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogueClockView.swift; sourceTree = "<group>"; };
+		DC7D770225C06441005D5E71 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		DC7D770325C06441005D5E71 /* SecondHandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondHandView.swift; sourceTree = "<group>"; };
+		DC7D770525C06441005D5E71 /* RoundViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundViewProtocol.swift; sourceTree = "<group>"; };
+		DC7D770725C06441005D5E71 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DC7D770825C06441005D5E71 /* Date+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extenstion.swift"; sourceTree = "<group>"; };
+		DC7D770925C06441005D5E71 /* CAShapeLayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Extension.swift"; sourceTree = "<group>"; };
+		DC7D770A25C06441005D5E71 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		DC7D770B25C06441005D5E71 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		DC7D770C25C06441005D5E71 /* ClockHandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockHandView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +115,7 @@
 			children = (
 				DC7D76BF25C05F84005D5E71 /* SwiftAnalogueClock.h */,
 				DC7D76C025C05F84005D5E71 /* Info.plist */,
+				DC7D76FD25C06441005D5E71 /* AnalogueClock */,
 			);
 			path = SwiftAnalogueClock;
 			sourceTree = "<group>";
@@ -120,6 +145,49 @@
 				DC7D76E425C06038005D5E71 /* Info.plist */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		DC7D76FD25C06441005D5E71 /* AnalogueClock */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D770125C06441005D5E71 /* AnalogueClockView.swift */,
+				DC7D770225C06441005D5E71 /* RoundView.swift */,
+				DC7D770325C06441005D5E71 /* SecondHandView.swift */,
+				DC7D770C25C06441005D5E71 /* ClockHandView.swift */,
+				DC7D770425C06441005D5E71 /* protocol */,
+				DC7D770625C06441005D5E71 /* extensions */,
+				DC7D76FE25C06441005D5E71 /* util */,
+			);
+			path = AnalogueClock;
+			sourceTree = "<group>";
+		};
+		DC7D76FE25C06441005D5E71 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D76FF25C06441005D5E71 /* DateUtil.swift */,
+				DC7D770025C06441005D5E71 /* LayerUtil.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		DC7D770425C06441005D5E71 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D770525C06441005D5E71 /* RoundViewProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		DC7D770625C06441005D5E71 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D770725C06441005D5E71 /* UIView+Extension.swift */,
+				DC7D770825C06441005D5E71 /* Date+Extenstion.swift */,
+				DC7D770925C06441005D5E71 /* CAShapeLayer+Extension.swift */,
+				DC7D770A25C06441005D5E71 /* CGFloat+Extension.swift */,
+				DC7D770B25C06441005D5E71 /* CALayer+Extension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7D770D25C06441005D5E71 /* DateUtil.swift in Sources */,
+				DC7D771325C06441005D5E71 /* UIView+Extension.swift in Sources */,
+				DC7D771525C06441005D5E71 /* CAShapeLayer+Extension.swift in Sources */,
+				DC7D771425C06441005D5E71 /* Date+Extenstion.swift in Sources */,
+				DC7D771625C06441005D5E71 /* CGFloat+Extension.swift in Sources */,
+				DC7D771025C06441005D5E71 /* RoundView.swift in Sources */,
+				DC7D771125C06441005D5E71 /* SecondHandView.swift in Sources */,
+				DC7D770F25C06441005D5E71 /* AnalogueClockView.swift in Sources */,
+				DC7D771825C06441005D5E71 /* ClockHandView.swift in Sources */,
+				DC7D770E25C06441005D5E71 /* LayerUtil.swift in Sources */,
+				DC7D771725C06441005D5E71 /* CALayer+Extension.swift in Sources */,
+				DC7D771225C06441005D5E71 /* RoundViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +545,7 @@
 		DC7D76D425C05F84005D5E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HMW68XSZG2;
 				INFOPLIST_FILE = SwiftAnalogueClockTests/Info.plist;
@@ -483,6 +564,7 @@
 		DC7D76D525C05F84005D5E71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HMW68XSZG2;
 				INFOPLIST_FILE = SwiftAnalogueClockTests/Info.plist;
