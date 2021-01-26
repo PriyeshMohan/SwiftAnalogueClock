@@ -25,6 +25,15 @@
 		DC7D771625C06441005D5E71 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770A25C06441005D5E71 /* CGFloat+Extension.swift */; };
 		DC7D771725C06441005D5E71 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770B25C06441005D5E71 /* CALayer+Extension.swift */; };
 		DC7D771825C06441005D5E71 /* ClockHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D770C25C06441005D5E71 /* ClockHandView.swift */; };
+		DC9292F125C096A600AD6500 /* StopWatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC9292E825C096A500AD6500 /* StopWatch.gif */; };
+		DC9292F225C096A600AD6500 /* Screenshot_6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292E925C096A600AD6500 /* Screenshot_6.png */; };
+		DC9292F325C096A600AD6500 /* Screenshot_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292EA25C096A600AD6500 /* Screenshot_5.png */; };
+		DC9292F425C096A600AD6500 /* TickTick.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC9292EB25C096A600AD6500 /* TickTick.gif */; };
+		DC9292F525C096A600AD6500 /* Screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292EC25C096A600AD6500 /* Screenshot_1.png */; };
+		DC9292F625C096A600AD6500 /* Screenshot_7.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292ED25C096A600AD6500 /* Screenshot_7.png */; };
+		DC9292F725C096A600AD6500 /* Screenshot_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292EE25C096A600AD6500 /* Screenshot_4.png */; };
+		DC9292F825C096A600AD6500 /* Screenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292EF25C096A600AD6500 /* Screenshot_2.png */; };
+		DC9292F925C096A600AD6500 /* Screenshot_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9292F025C096A600AD6500 /* Screenshot_3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,15 @@
 		DC7D770A25C06441005D5E71 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
 		DC7D770B25C06441005D5E71 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		DC7D770C25C06441005D5E71 /* ClockHandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockHandView.swift; sourceTree = "<group>"; };
+		DC9292E825C096A500AD6500 /* StopWatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StopWatch.gif; sourceTree = "<group>"; };
+		DC9292E925C096A600AD6500 /* Screenshot_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_6.png; sourceTree = "<group>"; };
+		DC9292EA25C096A600AD6500 /* Screenshot_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_5.png; sourceTree = "<group>"; };
+		DC9292EB25C096A600AD6500 /* TickTick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TickTick.gif; sourceTree = "<group>"; };
+		DC9292EC25C096A600AD6500 /* Screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_1.png; sourceTree = "<group>"; };
+		DC9292ED25C096A600AD6500 /* Screenshot_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_7.png; sourceTree = "<group>"; };
+		DC9292EE25C096A600AD6500 /* Screenshot_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_4.png; sourceTree = "<group>"; };
+		DC9292EF25C096A600AD6500 /* Screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_2.png; sourceTree = "<group>"; };
+		DC9292F025C096A600AD6500 /* Screenshot_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +112,7 @@
 			children = (
 				DC7D76BE25C05F84005D5E71 /* SwiftAnalogueClock */,
 				DC7D76C925C05F84005D5E71 /* SwiftAnalogueClockTests */,
+				DC9292E725C0968500AD6500 /* Assets */,
 				DC7D76DA25C0602F005D5E71 /* Shared */,
 				DC7D76E325C06038005D5E71 /* iOS */,
 				DC7D76BD25C05F84005D5E71 /* Products */,
@@ -188,6 +207,22 @@
 				DC7D770B25C06441005D5E71 /* CALayer+Extension.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		DC9292E725C0968500AD6500 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DC9292EC25C096A600AD6500 /* Screenshot_1.png */,
+				DC9292EF25C096A600AD6500 /* Screenshot_2.png */,
+				DC9292F025C096A600AD6500 /* Screenshot_3.png */,
+				DC9292EE25C096A600AD6500 /* Screenshot_4.png */,
+				DC9292EA25C096A600AD6500 /* Screenshot_5.png */,
+				DC9292E925C096A600AD6500 /* Screenshot_6.png */,
+				DC9292ED25C096A600AD6500 /* Screenshot_7.png */,
+				DC9292E825C096A500AD6500 /* StopWatch.gif */,
+				DC9292EB25C096A600AD6500 /* TickTick.gif */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +337,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9292F225C096A600AD6500 /* Screenshot_6.png in Resources */,
+				DC9292F125C096A600AD6500 /* StopWatch.gif in Resources */,
+				DC9292F825C096A600AD6500 /* Screenshot_2.png in Resources */,
+				DC9292F425C096A600AD6500 /* TickTick.gif in Resources */,
+				DC9292F725C096A600AD6500 /* Screenshot_4.png in Resources */,
+				DC9292F925C096A600AD6500 /* Screenshot_3.png in Resources */,
+				DC9292F525C096A600AD6500 /* Screenshot_1.png in Resources */,
+				DC9292F325C096A600AD6500 /* Screenshot_5.png in Resources */,
+				DC9292F625C096A600AD6500 /* Screenshot_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
