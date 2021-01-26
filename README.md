@@ -24,6 +24,10 @@ A highly customizable Swift Analogue clock view.
 ```xml
   clockView.clockType = .roman
 ```
+- Run specific date in the clock
+```xml
+  clockView.runClockOn(date: Date())
+```
 ## StopWatch
 - Convert to a stopWatch along with other look changes.
 ```xml
@@ -32,6 +36,13 @@ A highly customizable Swift Analogue clock view.
 - Set delegate from parent class
 ```xml
   clockView.delegate = self
+```
+- Start and stop the clock
+```xml
+  clockView.start()
+  .
+  .
+  clockView.stop()
 ```
 - Conform parent class to AnalogueClockProtocol
 ```xml
