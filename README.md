@@ -1,5 +1,5 @@
 # SwiftAnalogueClock
-A higly customisable Swift Analogue clock view.
+A highly customizable Swift Analogue clock view.
 -----------
 
 <img src="Assets/Screenshot_1.png" height="250" width="320"> <img src="Assets/Screenshot_2.png" height="250" width="320"> <img src="Assets/Screenshot_4.png" height="250" width="320"> <img src="Assets/Screenshot_5.png" height="250" width="320"> <img src="Assets/Screenshot_6.png" height="250" width="320"> <img src="Assets/Screenshot_7.png" height="320" width="320">
@@ -12,7 +12,7 @@ A higly customisable Swift Analogue clock view.
   end
 ```
 ## Usage
-- Inside your ViewController: Add an outlet or initiate the AnalogueClockView(). Customise as much as you want :)
+- Inside your ViewController: Add an outlet or initiate the AnalogueClockView(). Customize as much as you want :)
 ```xml
   clockView.clockFillColor = .black
   clockView.clockLineWidth = 5
@@ -52,10 +52,10 @@ A higly customisable Swift Analogue clock view.
 ```
 <img src="Assets/TickTick.gif" height="250" width="250">
 
-## Customisable
-- SwiftAnalogueClock comes with a wide veriety of customisable properties
+## Customizable
+- SwiftAnalogueClock comes with a wide veriety of customizable properties
 ```xml
-  // Clock View Customisation
+  // Clock View Customization
     var hideMinuteLines: Bool
     var hideHourLines: Bool
     var showOnlyQuarterHourLines: Bool
@@ -75,7 +75,7 @@ A higly customisable Swift Analogue clock view.
     var minutesMarkStrokeColor: UIColor
     var clockType: ClockType?
   
-  // Clock Hand Customisation
+  // Clock Hand Customization
     var hourMarkingTextColor: UIColor
     var hideSecondsHand: Bool 
     var secondsHandFillColor: UIColor
@@ -94,3 +94,4 @@ A higly customisable Swift Analogue clock view.
     var hoursHandCustomPath: UIBezierPath
     var hoursHandWidth: CGFloat
 ```
+
