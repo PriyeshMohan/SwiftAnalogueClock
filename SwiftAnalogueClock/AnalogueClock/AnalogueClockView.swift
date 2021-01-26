@@ -17,7 +17,8 @@ enum ClockType {
     case normal
     case normalMinimum
     case stopWatch
-    
+
+    /// [Degree: Mark String] - Degree is used to place the mark string
     var hourMarkings: [CGFloat: String] {
         switch self {
         case .roman:
@@ -32,7 +33,7 @@ enum ClockType {
     }
 }
 
-final class AnalogueClockView: RoundView, CAAnimationDelegate {
+public class AnalogueClockView: RoundView, CAAnimationDelegate {
     
     static let secondsHandHeightFactor: CGFloat = 1/2
     static let minutesHandDefaultHeightFactor: CGFloat = 1/3
@@ -446,7 +447,11 @@ final class AnalogueClockView: RoundView, CAAnimationDelegate {
             customLayers.append(LayerUtil.lineLayer(startPoint: CGPoint(x: points.startX, y: points.startY), endPoint:  CGPoint(x: points.endX, y: points.endY), lineWidth: minutesMarkLineWidth, fillColor: minutesMarkFillColor ?? .black, strokeColor: minutesMarkStrokeColor ?? .black))
         }
     }
-    
+
+    /// Method will return diametrically oppsite points on circle
+    ///  (rCos(angle), rsin(angle)) and the oppsite one with angle+180
+    /// - Parameter angle: angle to calculate the points
+    /// - Returns: Diametrically opposite points
     private func startAndEndPointsInCircle(angle: CGFloat) -> (startX: CGFloat, startY: CGFloat, endX: CGFloat, endY: CGFloat) {
         return ((bounds.width/2) + (bounds.width/2)*cos(angle.degreesToRadians), (bounds.width/2) + (bounds.width/2)*sin(angle.degreesToRadians),(bounds.width/2) + (bounds.width/2)*cos((180+angle).degreesToRadians), (bounds.width/2) + (bounds.width/2)*sin((180+angle).degreesToRadians))
     }

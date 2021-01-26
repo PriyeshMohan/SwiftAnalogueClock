@@ -14,8 +14,8 @@ final class SecondHandView: ClockHandView {
             clockHandLayer.removeFromSuperlayer()
             centralLayer.removeFromSuperlayer()
         }
-        let handViewLayer = CAShapeLayer().makeLayer(path: customPath ?? defaultHandPath(), lineWidth: 1, fillColor: .yellow, strokeColor: .black)
-        let centralLayer = LayerUtil.arcLayer(arcCenter: CGPoint(x: bounds.width/2, y: 3*bounds.height/4), radius: bounds.width, startAngle: 0, endAngle: 2 * CGFloat.pi, strokeColor: .black, lineWidth: 1, fillColor: .yellow, clockWise: true)
+        let handViewLayer = CAShapeLayer().makeLayer(path: customPath ?? defaultHandPath(), lineWidth: 1, fillColor: fillColor ?? .black, strokeColor: strokeColor ?? .black)
+        let centralLayer = LayerUtil.arcLayer(arcCenter: CGPoint(x: bounds.width/2, y: 3*bounds.height/4), radius: bounds.width, startAngle: 0, endAngle: 2 * CGFloat.pi, strokeColor: .black, lineWidth: 1, fillColor: fillColor ?? .black, clockWise: true)
         self.layer.addSublayer(handViewLayer)
         self.layer.addSublayer(centralLayer)
         handLayer = handViewLayer
