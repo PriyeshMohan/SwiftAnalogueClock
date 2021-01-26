@@ -10,6 +10,9 @@
 		DC7D76C625C05F84005D5E71 /* SwiftAnalogueClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7D76BC25C05F84005D5E71 /* SwiftAnalogueClock.framework */; };
 		DC7D76CB25C05F84005D5E71 /* SwiftAnalogueClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D76CA25C05F84005D5E71 /* SwiftAnalogueClockTests.swift */; };
 		DC7D76CD25C05F84005D5E71 /* SwiftAnalogueClock.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7D76BF25C05F84005D5E71 /* SwiftAnalogueClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7D76ED25C06038005D5E71 /* SwiftAnalogueClockExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D76DB25C0602F005D5E71 /* SwiftAnalogueClockExampleApp.swift */; };
+		DC7D76EF25C06038005D5E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D76DC25C0602F005D5E71 /* ContentView.swift */; };
+		DC7D76F125C06038005D5E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7D76DD25C06038005D5E71 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,11 @@
 		DC7D76C525C05F84005D5E71 /* SwiftAnalogueClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAnalogueClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7D76CA25C05F84005D5E71 /* SwiftAnalogueClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnalogueClockTests.swift; sourceTree = "<group>"; };
 		DC7D76CC25C05F84005D5E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7D76DB25C0602F005D5E71 /* SwiftAnalogueClockExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnalogueClockExampleApp.swift; sourceTree = "<group>"; };
+		DC7D76DC25C0602F005D5E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC7D76DD25C06038005D5E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7D76E225C06038005D5E71 /* SwiftAnalogueClockExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAnalogueClockExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7D76E425C06038005D5E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC7D76DF25C06038005D5E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +70,8 @@
 			children = (
 				DC7D76BE25C05F84005D5E71 /* SwiftAnalogueClock */,
 				DC7D76C925C05F84005D5E71 /* SwiftAnalogueClockTests */,
+				DC7D76DA25C0602F005D5E71 /* Shared */,
+				DC7D76E325C06038005D5E71 /* iOS */,
 				DC7D76BD25C05F84005D5E71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +81,7 @@
 			children = (
 				DC7D76BC25C05F84005D5E71 /* SwiftAnalogueClock.framework */,
 				DC7D76C525C05F84005D5E71 /* SwiftAnalogueClockTests.xctest */,
+				DC7D76E225C06038005D5E71 /* SwiftAnalogueClockExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +102,24 @@
 				DC7D76CC25C05F84005D5E71 /* Info.plist */,
 			);
 			path = SwiftAnalogueClockTests;
+			sourceTree = "<group>";
+		};
+		DC7D76DA25C0602F005D5E71 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D76DB25C0602F005D5E71 /* SwiftAnalogueClockExampleApp.swift */,
+				DC7D76DC25C0602F005D5E71 /* ContentView.swift */,
+				DC7D76DD25C06038005D5E71 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DC7D76E325C06038005D5E71 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D76E425C06038005D5E71 /* Info.plist */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +172,23 @@
 			productReference = DC7D76C525C05F84005D5E71 /* SwiftAnalogueClockTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DC7D76E125C06038005D5E71 /* SwiftAnalogueClockExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7D76F325C06038005D5E71 /* Build configuration list for PBXNativeTarget "SwiftAnalogueClockExample (iOS)" */;
+			buildPhases = (
+				DC7D76DE25C06038005D5E71 /* Sources */,
+				DC7D76DF25C06038005D5E71 /* Frameworks */,
+				DC7D76E025C06038005D5E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftAnalogueClockExample (iOS)";
+			productName = "SwiftAnalogueClockExample (iOS)";
+			productReference = DC7D76E225C06038005D5E71 /* SwiftAnalogueClockExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +202,9 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					DC7D76C425C05F84005D5E71 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					DC7D76E125C06038005D5E71 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -168,6 +224,7 @@
 			targets = (
 				DC7D76BB25C05F84005D5E71 /* SwiftAnalogueClock */,
 				DC7D76C425C05F84005D5E71 /* SwiftAnalogueClockTests */,
+				DC7D76E125C06038005D5E71 /* SwiftAnalogueClockExample (iOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +244,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC7D76E025C06038005D5E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7D76F125C06038005D5E71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -202,6 +267,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7D76CB25C05F84005D5E71 /* SwiftAnalogueClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7D76DE25C06038005D5E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7D76EF25C06038005D5E71 /* ContentView.swift in Sources */,
+				DC7D76ED25C06038005D5E71 /* SwiftAnalogueClockExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.priyesh.SwiftAnalogueClock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.priyesh.SwiftAnalogueClock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,6 +498,51 @@
 			};
 			name = Release;
 		};
+		DC7D76F425C06038005D5E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMW68XSZG2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.priyesh.SwiftAnalogueClockExample;
+				PRODUCT_NAME = SwiftAnalogueClockExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7D76F525C06038005D5E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMW68XSZG2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.priyesh.SwiftAnalogueClockExample;
+				PRODUCT_NAME = SwiftAnalogueClockExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +569,15 @@
 			buildConfigurations = (
 				DC7D76D425C05F84005D5E71 /* Debug */,
 				DC7D76D525C05F84005D5E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7D76F325C06038005D5E71 /* Build configuration list for PBXNativeTarget "SwiftAnalogueClockExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7D76F425C06038005D5E71 /* Debug */,
+				DC7D76F525C06038005D5E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
