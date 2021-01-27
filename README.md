@@ -12,12 +12,15 @@ A highly customizable Swift Analogue clock view.
   end
 ```
 ## Usage
-- Inside your ViewController: Add an outlet or initiate the AnalogueClockView(). Customize as much as you want :)
+- Import the module. Inside your ViewController, add an outlet or initiate the AnalogueClockView(). Customize as much as you want :)
 ```xml
+import SwiftAnalogueClock
+
+class MyViewController: UIViewController ... {
+  .
+  .
   clockView.clockFillColor = .black
   clockView.clockLineWidth = 5
-  .
-  .
   .
 ```
 - Set clock type to Roman, normal, etc.
