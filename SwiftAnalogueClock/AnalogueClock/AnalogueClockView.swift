@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol AnalogueClockProtocol: class {
+public protocol AnalogueClockProtocol: class {
     func time(hours: Int, minutes: Int, seconds: Int, ticks: Int)
 }
 
-enum ClockType {
+public enum ClockType {
     case roman
     case romanMinimum
     case normal
@@ -241,18 +241,18 @@ public class AnalogueClockView: RoundView, CAAnimationDelegate {
     private var runCount = 0
     
     //MARK:- View Cycle
-    override var bounds: CGRect {
+    public override var bounds: CGRect {
         didSet {
             addLayersAndSubViews()
         }
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         addLayersAndSubViews()
     }
     
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         addLayersAndSubViews()
     }
     
@@ -457,7 +457,7 @@ public class AnalogueClockView: RoundView, CAAnimationDelegate {
     }
     
     //MARK:- CAAnimationDelegate
-    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+    public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         secondHandAnimationCount += 1
         guard let handViewAnimationArray = animationArray else { return }
         if handViewAnimationArray.count > secondHandAnimationCount {

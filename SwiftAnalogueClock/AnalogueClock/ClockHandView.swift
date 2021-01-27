@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ClockHandView: UIView {
+public class ClockHandView: UIView {
     
     var handLayer: CALayer?
     var centralCircleLayer: CALayer?
@@ -31,22 +31,22 @@ class ClockHandView: UIView {
             addHandLayer()
         }
     }
-    override var bounds: CGRect {
+    public override var bounds: CGRect {
         didSet {
             addHandLayer()
         }
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         addHandLayer()
     }
     
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         addHandLayer()
     }
     
-    func addHandLayer() {
+    public func addHandLayer() {
         if let clockHandLayer = handLayer, let centralLayer = centralCircleLayer {
             clockHandLayer.removeFromSuperlayer()
             centralLayer.removeFromSuperlayer()
@@ -59,7 +59,7 @@ class ClockHandView: UIView {
         handLayer = handViewLayer
     }
     
-    func defaultHandPath() -> UIBezierPath {
+    public func defaultHandPath() -> UIBezierPath {
         let handLayerPath = UIBezierPath()
         handLayerPath.move(to: CGPoint(x: bounds.width/2, y: 0))
         handLayerPath.addLine(to: CGPoint(x: 0, y: bounds.height/10))

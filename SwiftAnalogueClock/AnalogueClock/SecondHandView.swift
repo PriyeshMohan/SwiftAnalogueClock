@@ -7,9 +7,9 @@
 
 import UIKit
 
-final class SecondHandView: ClockHandView {
+public class SecondHandView: ClockHandView {
     
-    override func addHandLayer() {
+    public override func addHandLayer() {
         if let clockHandLayer = handLayer, let centralLayer = centralCircleLayer {
             clockHandLayer.removeFromSuperlayer()
             centralLayer.removeFromSuperlayer()
@@ -22,7 +22,7 @@ final class SecondHandView: ClockHandView {
         centralCircleLayer = centralLayer
     }
     
-    override func defaultHandPath() -> UIBezierPath {
+    public override func defaultHandPath() -> UIBezierPath {
         let handLayerPath = UIBezierPath()
         handLayerPath.move(to: CGPoint(x: bounds.width/3, y: 0))
         handLayerPath.addLine(to: CGPoint(x: 0, y: bounds.height))

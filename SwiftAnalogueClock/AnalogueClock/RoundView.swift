@@ -7,15 +7,15 @@
 
 import UIKit
 
-class RoundView: UIView, RoundViewProtocol {
+public class RoundView: UIView, RoundViewProtocol {
     
-    override var bounds: CGRect {
+    public override var bounds: CGRect {
         didSet {
             makeViewRounded()
         }
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         makeViewRounded()
         if self.backgroundColor == nil {

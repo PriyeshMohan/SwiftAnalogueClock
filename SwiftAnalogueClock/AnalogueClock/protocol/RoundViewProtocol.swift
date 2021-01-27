@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol RoundViewProtocol {
+public protocol RoundViewProtocol {
     func makeViewRounded()
 }
 
 //MARK:- Default implementation for UIView
-extension RoundViewProtocol where Self: UIView {
+public extension RoundViewProtocol where Self: UIView {
     func makeViewRounded() {
         self.layer.cornerRadius = self.frame.height/2
         self.clipsToBounds = true
