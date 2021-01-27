@@ -8,7 +8,7 @@ A highly customizable Swift Analogue clock view.
 - Inside your podfile:
 ```xml
   target 'MyApp' do
-    pod 'SwiftAnalogueClock', '~> 0.0'
+    pod 'SwiftAnalogueClock', '~> 0.1'
   end
 ```
 ## Usage
