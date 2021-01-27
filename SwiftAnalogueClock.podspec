@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftAnalogueClock"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "SwiftAnalogueClock is an iOS framework written in Swift."
 spec.swift_versions = '5'
 
@@ -57,7 +57,7 @@ DESC
   spec.author             = { "Priyesh" => "priyeshpmohan@gmail.com" }
   # Or just: spec.author    = "Priyesh"
   # spec.authors            = { "Priyesh" => "priyeshpmohan@gmail.com" }
-  # spec.social_media_url   = "https://www.linkedin.com/in/priyesh-p-mohan/"
+  spec.social_media_url   = "https://www.linkedin.com/in/priyesh-p-mohan/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

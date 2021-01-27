@@ -49,185 +49,185 @@ public class AnalogueClockView: RoundView, CAAnimationDelegate {
     static let hoursHandDurationForFullCircle = CFTimeInterval(43200)
     
     //MARK:- Clock Customization
-    var hideMinuteLines: Bool = false {
+    public var hideMinuteLines: Bool = false {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hideHourLines: Bool = false {
+    public var hideHourLines: Bool = false {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var showOnlyQuarterHourLines: Bool = false {
+    public var showOnlyQuarterHourLines: Bool = false {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hideHourMarking: Bool = false {
+    public var hideHourMarking: Bool = false {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var tickTickAnimationEnabled: Bool = false
-    var clockFillColor: UIColor? {
+    public var tickTickAnimationEnabled: Bool = false
+    public var clockFillColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var clockStrokeColor: UIColor? {
+    public var clockStrokeColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var clockLineWidth: CGFloat = AnalogueClockView.defaultClockLineWidth {
+    public var clockLineWidth: CGFloat = AnalogueClockView.defaultClockLineWidth {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var secondsHandHeightFactor: CGFloat = AnalogueClockView.secondsHandHeightFactor {
+    public var secondsHandHeightFactor: CGFloat = AnalogueClockView.secondsHandHeightFactor {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesHandHeightFactor: CGFloat = AnalogueClockView.minutesHandDefaultHeightFactor {
+    public var minutesHandHeightFactor: CGFloat = AnalogueClockView.minutesHandDefaultHeightFactor {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursHandHeightFactor: CGFloat = AnalogueClockView.hoursHandDefaultHeightFactor {
+    public var hoursHandHeightFactor: CGFloat = AnalogueClockView.hoursHandDefaultHeightFactor {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursMarkLineWidth: CGFloat = AnalogueClockView.defaultHoursMarkLineWidth {
+    public var hoursMarkLineWidth: CGFloat = AnalogueClockView.defaultHoursMarkLineWidth {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursMarkFillColor: UIColor? {
+    public var hoursMarkFillColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursMarkStrokeColor: UIColor? {
+    public var hoursMarkStrokeColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesMarkLineWidth: CGFloat = AnalogueClockView.defaultMinutesMarkLineWidth {
+    public var minutesMarkLineWidth: CGFloat = AnalogueClockView.defaultMinutesMarkLineWidth {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesMarkFillColor: UIColor? {
+    public var minutesMarkFillColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesMarkStrokeColor: UIColor? {
+    public var minutesMarkStrokeColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
     //Clock Hour Marking Customization
-    var clockType: ClockType? {
+    public var clockType: ClockType? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hourMarkingTextColor: UIColor = .black {
+    public var hourMarkingTextColor: UIColor = .black {
         didSet {
             addLayersAndSubViews()
         }
     }
     
     //Seconds Hand Customization
-    var hideSecondsHand: Bool = false {
+    public var hideSecondsHand: Bool = false {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var secondsHandFillColor: UIColor? {
+    public var secondsHandFillColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var secondsHandStrokeColor: UIColor? {
+    public var secondsHandStrokeColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var secondsHandLineWidth: CGFloat = 1 {
+    public var secondsHandLineWidth: CGFloat = 1 {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var secondsHandCustomPath: UIBezierPath? {
+    public var secondsHandCustomPath: UIBezierPath? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var secondsHandWidth: CGFloat = AnalogueClockView.defaultClockHandsWidth {
+    public var secondsHandWidth: CGFloat = AnalogueClockView.defaultClockHandsWidth {
         didSet {
             addLayersAndSubViews()
         }
     }
     
     //Minutes Hand Customization
-    var minutesHandFillColor: UIColor? {
+    public var minutesHandFillColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesHandStrokeColor: UIColor? {
+    public var minutesHandStrokeColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesHandLineWidth: CGFloat = 1 {
+    public var minutesHandLineWidth: CGFloat = 1 {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesHandCustomPath: UIBezierPath? {
+    public var minutesHandCustomPath: UIBezierPath? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var minutesHandWidth: CGFloat = AnalogueClockView.defaultClockHandsWidth {
+    public var minutesHandWidth: CGFloat = AnalogueClockView.defaultClockHandsWidth {
         didSet {
             addLayersAndSubViews()
         }
     }
     
     //Hours Hand Customization
-    var hoursHandFillColor: UIColor? {
+    public var hoursHandFillColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursHandStrokeColor: UIColor? {
+    public var hoursHandStrokeColor: UIColor? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursHandLineWidth: CGFloat = 1 {
+    public var hoursHandLineWidth: CGFloat = 1 {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursHandCustomPath: UIBezierPath? {
+    public var hoursHandCustomPath: UIBezierPath? {
         didSet {
             addLayersAndSubViews()
         }
     }
-    var hoursHandWidth: CGFloat = AnalogueClockView.defaultClockHandsWidth {
+    public var hoursHandWidth: CGFloat = AnalogueClockView.defaultClockHandsWidth {
         didSet {
             addLayersAndSubViews()
         }
     }
-    weak var delegate: AnalogueClockProtocol?
+    public weak var delegate: AnalogueClockProtocol?
     
     //MARK:- Private Vars
     private var stopWatchStartDate: Date?
@@ -256,7 +256,7 @@ public class AnalogueClockView: RoundView, CAAnimationDelegate {
         addLayersAndSubViews()
     }
     
-    func runClockOn(date: Date?) {
+    public func runClockOn(date: Date?) {
         if self.clockType != .stopWatch {
             let timeComponents = DateUtil.timeComponents(date: date)
             let secondsStartRadian = CGFloat(timeComponents.seconds)*CGFloat.pi/30
@@ -273,7 +273,7 @@ public class AnalogueClockView: RoundView, CAAnimationDelegate {
         }
     }
     
-    func start() {
+    public func start() {
         if self.clockType == .stopWatch {
             setAnchorPoints()
             stopWatchStartDate = Date()
@@ -287,7 +287,7 @@ public class AnalogueClockView: RoundView, CAAnimationDelegate {
         }
     }
     
-    func stop() {
+    public func stop() {
         secondsHandView?.pause()
         minuteHandView?.pause()
         if self.clockType == .stopWatch {
