@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftAnalogueClock"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "SwiftAnalogueClock is an iOS framework written in Swift."
 spec.swift_versions = '5'
 
