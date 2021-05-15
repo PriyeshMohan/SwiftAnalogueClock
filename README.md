@@ -29,7 +29,10 @@ class MyViewController: UIViewController ... {
 ```
 - Run specific date in the clock
 ```xml
-  clockView.runClockOn(date: Date())
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    clock.runClockOn(date: Date())
+  }
 ```
 ## StopWatch
 - Convert to a stopWatch along with other look changes.
